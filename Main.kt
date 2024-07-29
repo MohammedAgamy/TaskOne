@@ -38,6 +38,7 @@ fun main(args: Array<String>) {
     //9: check if the double is greater than 5 or the integer is greater than 5.
     println("Double is greater than 5 = ${numDouble > 5}")
     println("Integer is greater than 5 = ${numInt > 5}")
+    println("Integer or double is greater than 5 = ${numInt > 5 || numDouble > 5}")
 
     /* another way */
     if (numDouble > 5 && numInt > 5)
