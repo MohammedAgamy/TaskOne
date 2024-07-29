@@ -3,7 +3,7 @@ import java.util.regex.Pattern
 fun main(args: Array<String>) {
 
 
-    fun main(args: Array<String>) {
+
 
         //1: Ask the user to enter one integer (Int).
         println("Enter number one type of Int")
@@ -52,6 +52,8 @@ fun main(args: Array<String>) {
         if (Pattern.matches("^[A-Za-z](.*)([@])(.+)(\\.)(.+)", email)) {
             println("The email address $email is valid")
         } else println("The email address $email is  invalid.")
+
+
 
 
 
